@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: rgb(255, 235, 249);
+        }
+        header{
+            background-color: black;
+            height: 80px;
+             display: flex;
+            align-items: center;
+        }
+        header>h2{
+            width: fit-content;
+            margin: 20px;
+            padding: 5px;
+            background:rgb(25, 235, 249);
+            border-radius: 15px;
+            color:goldenrod;
+            font-size: 2rem;
+            font-style: italic;
+            
+        }
+        h1{
+            margin: 20px 10px;
+            font-size: 3.5rem;
+        }
+        h2{
+            margin: 10px;
+        }
+        img{
+            height: 250px;
+             margin: 10px 10px 0px 0px;
+             border: 5px solid black;
+			 width:400px;
+        }
+		span{
+		color:rgb(45,85,248);
+		}
+		.main{
+		display:flex;
+		flex-direction:row;
+		}
+		.left,
+		.right{
+				margin:20px;
+				display:flex;
+				flex-direction:row;
+				}
+				
+		.content{
+				float:right;
+				margin:0px 10px;
+				}
+		footer{
+			position:relative;
+			bottom:0;
+			background-color:black;
+			color:white;}
+		p{
+			margin:10px 5px;
+			font-size:1.2rem;
+			}
+		@media(max-width:950px)
+		{
+			.main,.left,.right{
+				flex-direction:column;
+				} 
+		.img{
+			height:auto;
+			}
+    </style>
+</head>
+<body>
+    <header>
+        <h2>dev.com</h2>
+    </header>
+        <h1>We are a <span>Creative</span>Design Agency</h1>
+        <div class="main">
+            <div class="left">
+                <img src="https://seedsnpots.com/wp-content/uploads/2017/12/219951015_336414111461937_3618372671505822777_n.jpg" alt="Rajanigandha">
+                <div class="content">
+                    <h2>Beauty</h2>
+                    <p><strong>"Water does not resist.Water flows <br>When you plunge you hand into it,all you feel 
+                    a caress
+                    </strong></p>
+                    <p>The water understands <br>
+                    Civilzation well;<br>
+                    it wets my foot,but prettily,<br>
+                    it chills my life,but wittily,<br>
+                    it is not disconcerted,<br>
+                    it is not broken-hearted: <br>
+                    Well used,it decketh joy,<br>
+                    Adorneth,doubleth joy:
+                    </p>
+                </div>
+            </div>
+            <div class="right">
+                <img src="https://www.99acres.com/microsite/articles/files/2019/09/New-Project-64.jpg" alt="Construction Site">
+                <div class="content">
+                    <h2>Construction</h2>
+                    <p><strong>"Construction is the art of making a</strong></p>
+                    <p>He knows which lever to pull <br>
+                    and how to fit that tree,<br>
+                    he's checked the size and weight;<br>
+                those details are the key <br>
+            to doing his job,and doing it <right-br>
+                he raises and lowers <br>
+                the boom day and night <br>
+                he figures the distance,he studies the chart <br>
+                operating a crane is Construction art
+            </p>
+                </div>
+            </div>
+        </div>
+  <footer>
+    <p>Create,Develop,Design </p>
+  </footer>  
+</body>
+</html>
